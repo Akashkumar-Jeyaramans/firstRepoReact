@@ -1,0 +1,50 @@
+.container-login {
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: #f5f5f5;
+  position: relative;
+  z-index: 1;
+}
+
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loginFooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  position: absolute;
+  bottom: 27px;
+}
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px;
+  width: 360px;
+  height: 284px;
+}
+
+.login-form-forgot {
+  float: right;
+}
+.ant-col-rtl .login-form-forgot {
+  float: left;
+}
+.login-form-button {
+  width: 100%;
+}

@@ -1,0 +1,50 @@
+  .button {
+    float: right
+   }
+
+ .content {
+    display : flex;
+    margin: 10px;
+    padding: 20px;
+  }
+
+  .padding {
+    margin-left: 70px;
+  }
+
+  .padding1 {
+    margin-left: 10px;
+  }
+
+  .padding2 {
+    margin-left: 240px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 500px; /* new; value just for demo purposes */
+}
+.cell {
+    background: #ccc;
+    border: solid 3px black;
+    width: 50%;
+}
+.cell-1 {
+    flex-basis: 100%;
+}
+
+@media (max-width: 500px) {
+  .cell {
+    width: 100%;
+  }
+  .cell-1 {
+    order: 2;
+  }
+  .cell-2 {
+    order: 1;
+  }
+  .cell-3 {
+    order: 3;
+  }
+}
